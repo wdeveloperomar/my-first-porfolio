@@ -22,6 +22,21 @@ body {
     padding: 18px 35px 19px 36px;
 
 }
+
+.section-title {
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 /* na related styles */
 
 nav {
@@ -99,5 +114,18 @@ nav a {
     width: 584px;
     height: 676px;
 }
+
+/*main section styles*/
+
+/*about section styles*/
+
+.about {
+    padding: 209px 157px 221px 156px;
+    background: #fff8f3;
+    border-radius: 10px;
+    margin: 130px 0;
+}
+
+
 
 
