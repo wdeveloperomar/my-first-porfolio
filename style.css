@@ -195,6 +195,61 @@ main {
     line-height: 28px;
 }
 
+/* summary-resume-section-styles */
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.resume-column {
+    max-width: 600px;
+}
+
+.resume-item {
+    margin: 30px 0;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.resume-item-descprition {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
 
 
 
