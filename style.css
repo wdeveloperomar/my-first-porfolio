@@ -1,4 +1,10 @@
 /* common shared styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -22,6 +28,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 230px 0 226px;
+    padding: 50px 0 0 0;
 }
 
 .nav-title {
@@ -47,3 +55,22 @@ nav a {
     font-weight: 400;
    
 }
+
+/* header related styles*/
+
+.header {
+    background: #FFF8F3;
+}
+
+.banner {
+    padding: 38px 38px 0px 230px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture {
+    width: 584px;
+    height: 676px;
+}
+
+
