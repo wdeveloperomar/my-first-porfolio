@@ -60,12 +60,39 @@ nav a {
 
 .header {
     background: #FFF8F3;
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
     padding: 38px 38px 0px 230px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 600px;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    color:  #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-content p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 
 .banner .profile-picture {
